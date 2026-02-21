@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.end("Hello from SECOND APP it is updated version ;-), This is from k8s updateddddddddddddd and it is pushed automatically buddyyy niceeeey  v22");
+    res.end("Hello from SECOND APP it is updated version ;-), This is from k8s updateddddddddddddd and it is pushed automatically buddyyy niceeeey  v22 for auto trigger every 2 min");
 });
 
 server.listen(4000, () => {
